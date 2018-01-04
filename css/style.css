@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.local {
+    height: 100vh;
+    background-color: black;
+    background: url(../img/plainBlue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    color: #eee;
+    font-family: cursive;
+    padding-top: 10%;
+}
+#city {
+    font-size: 30px;
+    color: white;
+    font-family: serif;
+}
+#country {
+    font-size: 30px;
+    color: white;
+    font-family: serif;
+}
+#temp {
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+}
+#tempunit {
+    font-size: 30px;
+    color: white;
+    font-family: serif;
+}
+#tempunit:hover {
+    text-decoration: none;
+}
+#desc {
+    font-size: 30px;
+    color: white;
+    font-family: serif;
+}
+#deg {
+    color: white;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+    font-family: cursive;
+    
+}
+.name {
+    font-size: 115%;
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    
+}
+.name:hover {
+    text-decoration: none;
+}
