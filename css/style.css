@@ -19,22 +19,22 @@ header {
 }
 #city {
     font-size: 30px;
-    color: white;
+    color: #eee;
     font-family: serif;
 }
 #country {
     font-size: 30px;
-    color: white;
+    color: #eee;
     font-family: serif;
 }
 #temp {
     font-size: 30px;
-    color: white;
+    color: #eee;
     font-family: monospace;
 }
 #tempunit {
     font-size: 30px;
-    color: white;
+    color: #eee;
     font-family: serif;
 }
 #tempunit:hover {
@@ -42,11 +42,11 @@ header {
 }
 #desc {
     font-size: 30px;
-    color: white;
+    color: #eee;
     font-family: serif;
 }
 #deg {
-    color: white;
+    color: #eee;
     font-size: 30px;
     visibility: hidden;
 }
