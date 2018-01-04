@@ -65,13 +65,13 @@ function getBackground(wthr) {
     var url;
     switch(wthr) {
         case 'smoke' : url = "url('../img/smoke.jpg')"; break;
-        case "mist": url = "../img/mist.gif"; break;
-        case 'clear': url = "../img/clear.jpg"; break;
-        case 'clouds': url = "../img/clouds.jpg"; break;
-        case 'drizzle': url = "../img/drizzle.jpg"; break;
-        case 'rain': url = "../img/rain.jpg"; break;
-        case 'snow': url = "../img/snow.jpeg"; break;
-        case 'thunderstorm': "../img/thunderstorm.jpg"; break;
+        case "mist": url = "url('../img/mist.gif')"; break;
+        case 'clear': url = "url('../img/clear.jpg')"; break;
+        case 'clouds': url = "url('../img/clouds.jpg')"; break;
+        case 'drizzle': url = "url('../img/drizzle.jpg')"; break;
+        case 'rain': url = "url('../img/rain.jpg')"; break;
+        case 'snow': url = "url('../img/snow.jpeg')"; break;
+        case 'thunderstorm': "url('../img/thunderstorm.jpg')"; break;
         default: url = "url('../img/plainBlue.jpg')";
     }
     document.getElementById("local1").style.backgroundImage = url;
