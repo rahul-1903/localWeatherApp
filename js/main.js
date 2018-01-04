@@ -72,7 +72,7 @@ function getBackground(wthr) {
         case 'rain': url = "../img/rain.jpg"; break;
         case 'snow': url = "../img/snow.jpeg"; break;
         case 'thunderstorm': "../img/thunderstorm.jpg"; break;
-        default: url = "url('../img/plainWhite.jpg')";
+        default: url = "url('../img/plainBlue.jpg')";
     }
     document.getElementById("local1").style.backgroundImage = url;
 }
