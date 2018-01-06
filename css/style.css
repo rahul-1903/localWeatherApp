@@ -70,13 +70,3 @@ header {
 .name:hover {
     text-decoration: none;
 }
-
-@media screen and (max-height: 640px) {
-    .local {
-        overflow: hidden;
-        padding-top: 40%;
-    }
-    .name {
-        font-size: 200%;
-    }
-} 
