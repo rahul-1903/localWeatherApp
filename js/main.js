@@ -66,15 +66,15 @@ function getBackground(wthr) {
     wthr = wthr.toLowerCase();
     var url;
     switch(wthr) {
-        case 'smoke' : url = "url('/img/smoke.jpg')"; break;
-        case "mist": url = "url('/img/smoke.jpg')"; break;
-        case 'clear': url = "url('/img/clear.jpg')"; break;
-        case 'clouds': url = "url('/img/clouds.jpg')"; break;
-        case 'drizzle': url = "url('/img/drizzle.jpg')"; break;
-        case 'rain': url = "url('/img/rain.jpg')"; break;
-        case 'snow': url = "url('/img/snow.jpeg')"; break;
-        case 'thunderstorm': "url('/img/thunderstorm.jpg')"; break;
-        default: url = "url('/img/plainBlue.jpg')";
+        case 'smoke' : url = "url('http://imghst.co/83/xA_xwq5!It.jpg')"; break;
+        case "mist": url = "url('http://imghst.co/92/0&b1aWR8WV.jpg')"; break;
+        case 'clear': url = "url('http://imghst.co/100/CaDTqKsMJb.jpg')"; break;
+        case 'clouds': url = "url('http://imghst.co/91/4O)vaP2i3E.jpg')"; break;
+        case 'drizzle': url = "url('http://imghst.co/78/)SSyMZX!fR.jpg')"; break;
+        case 'rain': url = "url('http://imghst.co/83/ou6SICCxwV.jpg')"; break;
+        case 'snow': url = "url('http://imghst.co/92/Eca0rx_shy.jpeg')"; break;
+        case 'thunderstorm': "url('http://imghst.co/74/KVQ!LRk3Y9.jpg')"; break;
+        default: url = "url('http://imghst.co/98/j8f8WuT5(e.jpg')";
     }
     document.getElementById("local1").style.backgroundImage = url;
 }
