@@ -1,3 +1,11 @@
+(function( $ ) {
+    'use strict';
+ 
+    $(function() {
+        // alert( 'JavaScript Loaded!' );
+    });
+ 
+})( jQuery );
 var api = "https://fcc-weather-api.glitch.me/api/current?";
 var lat, lon;
 var tempUnit = "C";
@@ -6,8 +14,8 @@ var curTempInC;
 $(document).ready(function() {
    if (navigator.geolocation) {
        navigator.geolocation.getCurrentPosition(function(position) {
-           var lat = "lat="+position.coords.latitude;
-           var lon = "lon="+position.coords.longitude;
+           lat = "lat="+position.coords.latitude;
+           lon = "lon="+position.coords.longitude;
            getWeather(lat, lon);
        });
    } 
@@ -55,18 +63,18 @@ function getWeather(lat, lon) {
     });
 }
 function getBackground(wthr) {
-    var wthr = wthr.toLowerCase();
+    wthr = wthr.toLowerCase();
     var url;
     switch(wthr) {
-        case 'smoke' : url = "url('http://i377.photobucket.com/albums/oo212/rahul19z/smoke_zpsmcwjoel7.jpg')"; break;
-        case "mist": url = "url('http://i377.photobucket.com/albums/oo212/rahul19z/mist_zpsytp0qlw7.jpg')"; break;
-        case 'clear': url = "url('http://i377.photobucket.com/albums/oo212/rahul19z/clear_zpsoqac9qv8.jpg')"; break;
-        case 'clouds': url = "url('http://i377.photobucket.com/albums/oo212/rahul19z/clouds_zpsqfgiwhx5.jpg')"; break;
-        case 'drizzle': url = "url('http://i377.photobucket.com/albums/oo212/rahul19z/drizzle_zpsojctvk0g.jpg')"; break;
-        case 'rain': url = "url('http://i377.photobucket.com/albums/oo212/rahul19z/rain_zpsc3enqwlt.jpg')"; break;
-        case 'snow': url = "url('http://i377.photobucket.com/albums/oo212/rahul19z/snow_zpsetticdhw.jpeg')"; break;
-        case 'thunderstorm': "url('http://i377.photobucket.com/albums/oo212/rahul19z/thunderstorm_zpsl28nd8cl.jpg')"; break;
-        default: url = "url('../img/plainBlue.jpg')";
+        case 'smoke' : url = "url('/img/smoke.jpg')"; break;
+        case "mist": url = "url('/img/smoke.jpg')"; break;
+        case 'clear': url = "url('/img/clear.jpg')"; break;
+        case 'clouds': url = "url('/img/clouds.jpg')"; break;
+        case 'drizzle': url = "url('/img/drizzle.jpg')"; break;
+        case 'rain': url = "url('/img/rain.jpg')"; break;
+        case 'snow': url = "url('/img/snow.jpeg')"; break;
+        case 'thunderstorm': "url('/img/thunderstorm.jpg')"; break;
+        default: url = "url('/img/plainBlue.jpg')";
     }
     document.getElementById("local1").style.backgroundImage = url;
 }
