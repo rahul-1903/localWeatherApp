@@ -5,7 +5,7 @@
 .local {
     height: 100vh;
     background-color: black;
-    background: url('http://i377.photobucket.com/albums/oo212/rahul19z/plainBlue_zpsdzuccgnu.jpg');
+    background: url('/img/plainBlue.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -60,7 +60,7 @@ header {
     
 }
 .name {
-    font-size: 115%;
+    font-size: 125%;
     text-decoration: none;
     color: crimson;
     font-weight: bold;
@@ -69,6 +69,7 @@ header {
 .name:hover {
     text-decoration: none;
 }
+
 @media screen and (min-height: 720px) {
     .local {
         overflow: hidden;
@@ -77,4 +78,4 @@ header {
     .name {
         font-size: 200%;
     }
-}
+} 
