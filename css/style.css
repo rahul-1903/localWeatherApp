@@ -37,7 +37,7 @@ header {
     color: #eee;
     font-family: serif;
 }
-#tempunit:hover {
+#tempunit:hover,:visited,:active,:focus {
     text-decoration: none;
 }
 #desc {
