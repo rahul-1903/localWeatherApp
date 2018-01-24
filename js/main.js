@@ -74,6 +74,7 @@ function getBackground(wthr) {
         case 'rain': url = "url('http://imghst.co/83/ou6SICCxwV.jpg')"; break;
         case 'snow': url = "url('http://imghst.co/92/Eca0rx_shy.jpeg')"; break;
         case 'thunderstorm': "url('http://imghst.co/74/KVQ!LRk3Y9.jpg')"; break;
+        case 'haze': "url('http://imghst.co/80/xBMh~QpXr(.jpeg')"; break;
         default: url = "url('http://imghst.co/98/j8f8WuT5(e.jpg')";
     }
     document.getElementById("local1").style.backgroundImage = url;
