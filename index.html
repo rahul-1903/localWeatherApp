@@ -4,23 +4,31 @@
         <title>Local Weather App</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-       <!-- A section -->
-       <section class="conatiner local" id="local1">
-           <header>
-               <center><h1>LOCAL WEATHER APP</h1></center>
-           </header>
-           <center><span id="city"></span><span id="country"></span></center>
-           <center><span id="temp"></span><span id="deg">&deg</span><a href="#" id="tempunit"></a></center>
-           <center><span id="desc"></span></center>
-           <center><span id="icon"></span></center>
-           <footer class="footer">
-               <h4>Inspired By <a href="#" class="name">Rahul Kumar Gupta</a></h4>
-           </footer>
-       </section>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- A section -->
+        <div class="container-fluid" style="width:100%; padding:0px; min-height: 100vh">
+            <div class="row">
+                <div class="col-lg-12" style="width:100%; padding:0px;">
+                    <section class="conatiner local" id="local1">
+                        <header>
+                            <center><h1 style="font-size:5vh;">LOCAL WEATHER APP</h1></center>
+                        </header>
+                        <center><span id="city" style="font-size:5vh;"></span><span id="country" style="font-size:5vh;"></span></center>
+                        <center><span id="temp" style="font-size:5vh;"></span><span id="deg">&deg</span><a href="#" id="tempunit"></a></center>
+                        <center><span id="desc" style="font-size:5vh;"></span></center>
+                        <center><span id="icon" style="font-size:5vh;"></span></center>
+                        <footer class="footer">
+                            <h4 style="font-size:3vh;">Inspired By <a href="#" class="name">Rahul Kumar Gupta</a></h4>
+                        </footer>
+                    </section>
+                </div>
+            </div>
+            
+        </div>
+        
         <script src="js/main.js" type="text/javascript"></script>
 
     </body>
